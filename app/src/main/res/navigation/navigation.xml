@@ -9,5 +9,18 @@
         android:id="@+id/firstFragment"
         android:name="com.android.example.appstart.FirstFragment"
         android:label="fragment_second"
-        tools:layout="@layout/fragment_first" />
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_fragment_second"
+            app:destination="@id/fragment_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_second"
+        android:name="com.android.example.appstart.fragment_second"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_fragment_second_to_firstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
 </navigation>
