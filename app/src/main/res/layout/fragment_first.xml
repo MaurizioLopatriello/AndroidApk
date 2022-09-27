@@ -11,24 +11,25 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="@dimen/text_high"
+        android:layout_marginStart="@dimen/text_high"
+        android:layout_marginBottom="@dimen/text_high"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.902"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="@dimen/text_high"
         android:textColor="@color/white"
-        android:text="Next"/>
+        android:text="@string/Button_text"
+        android:textSize="@dimen/text_size"/>
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to the app new developer"
+        android:layout_width="@dimen/text_width2"
+        android:layout_height="@dimen/text_high"
+        android:text="@string/Textview2"
         android:textAlignment="gravity"
         android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

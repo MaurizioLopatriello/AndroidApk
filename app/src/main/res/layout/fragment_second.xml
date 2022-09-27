@@ -9,26 +9,26 @@
 
     <TextView
         android:id="@+id/Textviewfragmentsecond"
-        android:layout_width="match_parent"
-        android:layout_height="71dp"
+        android:layout_width="@dimen/text_width2"
+        android:layout_height="@dimen/text_high"
+        android:layout_marginTop="@dimen/text_width2"
+        android:layout_marginStart="@dimen/text_start"
         android:gravity="center"
-        android:layout_marginTop="80dp"
         android:text="@string/hello_blank_fragment"
-        android:textSize="25dp" />
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/ButtonBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/text_width"
+        android:layout_height="@dimen/text_high"
         android:layout_alignParentEnd="true"
-
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="Back"
+        android:layout_marginStart="@dimen/text_high"
+        android:layout_marginEnd="@dimen/text_high"
+        android:layout_marginBottom="@dimen/text_high"
+        android:text="@string/Button_text2"
         android:textColor="@color/teal_200"
-        android:textSize="20dp" />
+        android:textSize="@dimen/text_size" />
 
 </RelativeLayout>

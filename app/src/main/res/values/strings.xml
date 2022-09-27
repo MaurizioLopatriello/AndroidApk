@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Appstart</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="string">welcome to the app</string>
-    <string name="welcome_to_the_app">Welcome to the app</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Textview2">Welcome to the app new developer </string>
+    <string name="Button_text">Next</string>
+    <string name="Button_text2">Back</string>
+
+
+
+
     <string name="hello_blank_fragment">If u can read this means that app works pretty fine :)</string>
 </resources>
