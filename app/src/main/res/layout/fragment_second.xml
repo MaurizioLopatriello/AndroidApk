@@ -11,12 +11,12 @@
         android:id="@+id/Textviewfragmentsecond"
         android:layout_width="@dimen/text_width2"
         android:layout_height="@dimen/text_high"
+        android:layout_marginStart="@dimen/text_size"
         android:layout_marginTop="@dimen/text_width2"
-        android:layout_marginStart="@dimen/text_start"
         android:gravity="center"
         android:text="@string/hello_blank_fragment"
-        android:textSize="@dimen/text_size"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size" />
 
     <Button
         android:id="@+id/ButtonBack"

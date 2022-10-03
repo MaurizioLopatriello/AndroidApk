@@ -24,8 +24,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="@dimen/text_width2"
-        android:layout_height="@dimen/text_high"
+        android:layout_width="307dp"
+        android:layout_height="79dp"
         android:text="@string/Textview2"
         android:textAlignment="gravity"
         android:textColor="@color/black"
@@ -36,14 +36,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.442" />
 
-    <EditText
-        android:layout_width="@dimen/text_width2"
-        android:layout_height="@dimen/text_high"
-        android:hint="@string/insert_username"
+
+    <TextView
+        android:id="@+id/TextMod"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:text="Your Name"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <EditText
+        android:id="@+id/EditTextFirst"
+        android:layout_width="188dp"
+        android:layout_height="79dp"
+        android:hint="@string/insert_username"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.607" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

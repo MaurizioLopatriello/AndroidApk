@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 
 // TODO: Rename parameter arguments, choose names that match
@@ -45,7 +47,14 @@ class FirstFragment : Fragment() {
         button.setOnClickListener{
             findNavController().navigate(R.id.action_firstFragment_to_fragment_second)
         }
-    }
+
+       val  editText=view.findViewById<Button>(R.id.button).setOnClickListener{ TextMod.text =
+
+
+
+        }}
+
+
 
     companion object {
         /**
