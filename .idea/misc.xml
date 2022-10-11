@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Appstart/app/src/main/res/drawable/ic_launcher_background.xml" value="0.415" />
         <entry key="..\:/Appstart/app/src/main/res/layout-sw820dp/dimens.xml" value="0.18333333333333332" />
         <entry key="..\:/Appstart/app/src/main/res/layout/activity_main.xml" value="0.55" />
         <entry key="..\:/Appstart/app/src/main/res/layout/fragment_first.xml" value="0.33" />
-        <entry key="..\:/Appstart/app/src/main/res/layout/fragment_second.xml" value="0.2206435436690347" />
+        <entry key="..\:/Appstart/app/src/main/res/layout/fragment_second.xml" value="0.33" />
+        <entry key="..\:/Appstart/app/src/main/res/layout/starslistitems.xml" value="0.33" />
       </map>
     </option>
   </component>
