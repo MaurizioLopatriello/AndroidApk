@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">20dp</dimen>
+    <dimen name="text_high">50dp</dimen>
+    <dimen name="text_width">100dp</dimen>
+    <dimen name="text_width2">370dp</dimen>
+    <dimen name="text_start">10dp</dimen>
+
+</resources>
